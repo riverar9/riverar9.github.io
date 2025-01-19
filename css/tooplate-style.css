@@ -297,6 +297,16 @@ a:hover, a:active, a:focus {
   padding-top: 100px;
 }
 
+.about-text > p{
+	font-size:16px;
+	color:rgba(0, 0, 0, 0.7);
+	line-height:1.8em;
+  text-align: justify;
+}
+.about-text{
+	margin-bottom:25px;
+}
+
 .about-image-thumb img {
   border-radius: 5px;
   margin-bottom: 22px;
