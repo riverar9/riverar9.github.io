@@ -71,8 +71,9 @@ http://www.tooplate.com/view/2087-kalay
                     <div class='about-btns' >
         
                          <a target="_blank" href='resume/Richie-Rivera-Resume.pdf' class='btn resume-btn' download='Richie-Rivera-Resume.pdf'>
-                              Download Resume
+                              Download Resume (update pending)
                          </a>
+                         <p class="resume-note">The downloadable PDF is an older version; the experience below reflects the October 2026 career record.</p>
 
                     </div>
                </div>
@@ -80,17 +81,10 @@ http://www.tooplate.com/view/2087-kalay
                <div class="col-md-offset-4">
                     
                     <div class="wow fadeInUp about-text" data-wow-delay="0.4s" style="text-align: left;">
-                         <p>Hi! I'm Richie Rivera, holding a Bachelor of Science in Aerospace Engineering and Applied Mathematics from <strong>Embry-Riddle Aeronautical University</strong> and a Master of Science in Data Science from <strong>CUNY</strong>. I’m passionate about using data to solve problems and improve lives.</p>
-
-                         <p>Growing up fascinated by aviation and driven to help others, I became the first in my immigrant family to pursue higher education. This path led me to continuously develop my skills in both engineering and data science.</p>
-                         
-                         <p>I started my career with an internship at Southwest Airlines in Maintenance Programs, where I learned the value of bringing fresh perspectives and new skill sets to the table.</p>
-                         
-                         <p>Now, I'm expanding my technical expertise and business knowledge. Collaboration and understanding are key to my success, helping create environments where everyone can contribute their unique strengths.</p>
-                         
+                         <p>I'm a data engineer based in Brooklyn, New York, and a Distinguished Data Science Engineer at <strong>Verizon</strong>. I build and operate the data systems behind marketing measurement: Python and SQL pipelines, vendor deliveries, and quality controls that make model inputs and reporting trustworthy.</p>
+                         <p>My work combines production ownership with investigation: resolving conflicting business definitions, tracing data lineage, and finding errors that can survive a successful pipeline run. I also direct AI-assisted engineering workflows with explicit context, review, testing, and verification.</p>
+                         <p>I completed an <strong>M.S. in Data Science at CUNY School of Professional Studies in May 2026</strong> and hold a <strong>B.S. in Aerospace Engineering from Embry-Riddle Aeronautical University</strong>. My aviation background informs how I think about reliability, edge cases, and operational constraints.</p>
                     </div>
-                    
-
                </div>
 
 </section>
@@ -104,75 +98,90 @@ http://www.tooplate.com/view/2087-kalay
                     <h2>Work Experience</h2>
                     <ul class='timeline' >
 								
-                         <li>
-                               
-                           <div class='wow fadeInUp timeline-content' data-wow-delay="0.1s" >
+                         <li> 
+                              <div class='wow fadeInUp timeline-content' data-wow-delay="0.1s" >
                                  
-                             <h4>Verizon</h4>
-                                                            
-                             <em>
-                               <span>Distinguished Data Science Engineer </span>
-                               <span> | </span>
-                               <span>New York, NY</span>
-                               <span> | </span>
-                               <span>January 2020 - Present</span>
-                             </em>
+                                   <h4>Verizon</h4>
+                                                                      
+                                   <em>
+                                        <span>Distinguished Data Science Engineer </span>
+                                        <span> | </span>
+                                        <span>New York, NY</span>
+                                        <span> | </span>
+                                        <span>August 2025 - Present</span>
+                                   </em>
+                                        
+                                   <p>
+                                        <ul class="experience-points">
+                                             <li>Own vendor-facing marketing-data deliveries and contribute to the team’s move from on-prem systems to GCP: migration approach, landing-zone provisioning, pipeline implementation, and coverage audits.</li>
+                                             <li>Specified, reviewed, tested, and shipped an AI-assisted production <strong>GCS-to-BigQuery loader on Cloud Run, scheduled hourly by Composer</strong> in October 2026. Added content-hash deduplication, schema validation, older-data and row-collapse guards, an append-only audit log, and 29 unit tests.</li>
+                                             <li>Independently verified the production load against the source workbook using a separate parsing path. Extended the team’s existing GitLab/Jenkins deployment workflow with an app-specific stage.</li>
+                                             <li>Investigated a vendor-bound availability feed with snapshot stacking that inflated some months by up to <strong>42×</strong>; corrected snapshot and stock-versus-flow semantics, validated against an independent source, and delivered restated history.</li>
+                                             <li>Operate a monthly delivery of <strong>13 datasets across 17 files</strong>. Strengthened failure handling with completion markers, transcript-based alerts, and an independent watchdog for jobs that never start.</li>
+                                             <li>Built reusable AI-agent skills, context templates, hooks, and handoff documentation. Direct AI-generated changes through review and testing, and verify agent claims against source systems.</li>
+                                        </ul>
+                                        <ul>
+                                             <button class = "skill"><h6>Python</h6></button>
+                                             <button class = "skill"><h6>SQL</h6></button>
+                                             <button class = "skill"><h6>BigQuery</h6></button>
+                                             <button class = "skill"><h6>Cloud Run</h6></button>
+                                             <button class = "skill"><h6>GCS</h6></button>
+                                             <button class = "skill"><h6>Composer / Airflow</h6></button>
+                                             <button class = "skill"><h6>Data Quality</h6></button>
+                                             <button class = "skill"><h6>AI Assisted Engineering</h6></button>
+                                        </ul>
+                                   </p>
+
+                                   <em>
+                                        <br>
+                                        <span>Principal Data Science Engineer </span>
+                                        <span> | </span>
+                                        <span>New York, NY</span>
+                                        <span> | </span>
+                                        <span>October 2021 - August 2025</span>
+                                   </em>
+                                        
+                                   <p>
+                                        <ul class="experience-points">
+                                             <li>Original author and majority maintainer of the marketing-mix ETL begun in 2023, supplying normalized modeling data across four lines of business. Built a shared Python library and configuration-driven processing for roughly 80 channel and dataset scripts.</li>
+                                             <li>Authored the on-prem automation framework for Adobe Analytics, ThoughtSpot, and media-vendor feeds into Teradata, with scheduled execution, quality gates, notifications, and bulk-load recovery.</li>
+                                             <li>Built and extended the Teradata modeling-data layer with daily granularity, value-domain checks, audit snapshots, and FastLoad support.</li>
+                                             <li>Created self-service Tableau and data-access tools, wrote training documents, trained colleagues on Python and programmatic data delivery, and introduced reusable functions, git, and virtual-environment practices.</li>
+                                        </ul>
+                                        <ul>
+                                             <button class = "skill"><h6>Python</h6></button>
+                                             <button class = "skill"><h6>Teradata</h6></button>
+                                             <button class = "skill"><h6>SQL</h6></button>
+                                             <button class = "skill"><h6>Adobe Analytics APIs</h6></button>
+                                             <button class = "skill"><h6>ThoughtSpot APIs</h6></button>
+                                             <button class = "skill"><h6>Windows Task Scheduler</h6></button>
+                                             <button class = "skill"><h6>Tableau</h6></button>
+                                             <button class = "skill"><h6>Git</h6></button>
+                                        </ul>
+                                   </p>
+
+                                   <em>
+                                        <br>
+                                        <span>Marketing Effectiveness Consultant</span>
+                                        <span> | </span>
+                                        <span>New York, NY</span>
+                                        <span> | </span>
+                                        <span>January 2020 - October 2021</span>
+                                   </em>
+                                        
+                                   <p>
+                                        <ul class="experience-points">
+                                             <li>Translated stakeholder requirements into technical specifications and supported data validation for marketing measurement.</li>
+                                             <li>    Designed and analyzed a matched-market Causal Impact experiment assessing the incremental lift of an alternative creative.</li>
+                                        </ul>
+                                        <ul>
+                                             <button class = "skill"><h6>Marketing Measurement</h6></button>
+                                             <button class = "skill"><h6>Data Validation</h6></button>
+                                             <button class = "skill"><h6>Experimentation</h6></button>
+                                        </ul>
+                                   </p>
                                  
-                             <p><span>I play a key role in building our Marketing Analytics Ecosystem by configuring infrastructure and developing processes that support Data Science and Business Intelligence teams. Some of my key contributions include:
-                              <br><br>
-                              <ul style="list-style-type:disc;">                                    
-                                   <li> 
-                                        Built and maintained cross-departmental relationships to develop data pipelines for ingestion, ensuring data availability for analysis and reporting across teams.
-                                   </li>
-                                        <br>
-                                   <li> 
-                                        Migrated fragmented legacy code, which required multiple software versions, to a GitLab repository with locked dependencies. This streamlined the process, enabling faster onboarding to data pipelines, improved team collaboration, and made our data practices more transparent and explainable. It also facilitated automated data quality assurance, provided a comprehensive view of media data across the company, and offered greater flexibility for data scientists in modeling.
-                                   </li>
-                                        <br>
-                                   <li> 
-                                        Designed and conducted A/B and Causal Impact experiments to assess incremental sales and traffic changes from marketing channels and media, leading to informed decisions to expand campaigns and better understand market dynamics.
-                                   </li>
-                                        <br>
-                                   <li>
-                                        Provide and assist in developing slides for 15+ weekly and daily decks for strategy, media, and finance teams, making data more accessible for analysis and use across the company. Additionally, I create automated data visualizations that deliver insights for executive leadership.
-                                   </li>
-                                        <br>
-                                   <li>
-                                        Pioneered the use of Agentic workflows to accelerate the time from development to production in both Data Engineering and Data Science tasks.
-                                   </li>
-                                   <li>
-                                        Developed Retrieval-Augmented Generation (RAG) tools to empower data teams to facilitate data validation, dataset retrieval for modeling workflows, and provide a source of immediate truth for strategic teams.   
-                                   </li>
-                                   <li>
-                                        Chained agentic workflows and RAG tools to create a series of web based dashboards for Executive level consumption of Survey response analytics.
-                                   </li>
-                                   <li>
-                                        Established the organization's MLOps framework using GCP Composer (Airflow) and Cloud Run, automating the end-to-end lifecycle for feature engineering and inference pipelines processing 50+ GB of daily marketing data.
-                                   </li>
-                                   <li>
-                                        Consulted with the econometric teams for the deployment of ongoing strategic MMM models onto GCP's VertexAI. Developing pipelines to feed into the ongoing prdouction system and providing guidance on configuration and CI/CD methods. 
-                                   </li>
-                                   <li>
-                                        Directing the migration of legacy marketing-science systems to a modern, scalable GCP architecture, optimizing BigQuery-based data products for sub-second query performance and Spark-driven analytical workflows.
-                                   </li>
-                                 
-                                   <button class = "skill"><h6>Python</h6></button>
-                                   <button class = "skill"><h6>R</h6></button>
-                                   <button class = "skill"><h6>Shell Scripting</h6></button>
-                                   <button class = "skill"><h6>SQL</h6></button>
-                                   <button class = "skill"><h6>Cloud Computing</h6></button>
-                                   <button class = "skill"><h6>GCP</h6></button>
-                                   <button class = "skill"><h6>BigQuery</h6></button>
-                                   <button class = "skill"><h6>VertexAI</h6></button>
-                                   <button class = "skill"><h6>Composer</h6></button>
-                                   <button class = "skill"><h6>Cloud Run</h6></button>
-                                   <button class = "skill"><h6>SQL</h6></button>
-                                   <button class = "skill"><h6>Git</h6></button>
-                                   <button class = "skill"><h6>Tableau</h6></button>
-                               </ul>
-                             </p>
-                                 
-                           </div>
+                              </div>
                                
                          </li>
              
@@ -192,31 +201,17 @@ http://www.tooplate.com/view/2087-kalay
                                  
                              <p>
                                <ul style="list-style-type:disc;">
-                                   <li>
-                                        Developed and implemented a predictive maintenance process us Palantir's Foundry, identifying actionable findings such as a predictive indicator for servicing rudder actuators before failure, preventing 15 flight cancellations and saving the company $30M. The process also allowed non-findings to be documented for future fleet modifications. Additionally, utilized brake heat dissipation data to estimate remaining thickness, saving 30 minutes per aircraft daily in routine maintenance.
-                                   </li>
-                                   <br>
-                                   <li>
-                                        Increased the Test coverage of ~10 micro-services,leveraging Junit and Mockito for Unit Testing,and Wiremock for Integration Testing. Achieving a comprehensive coverage rate surpassing 85%, thereby ensuring compliance with internal testing standards
-                                   </li>
-                                   <br>
-                                   <li>
-                                        Analyzed aircraft sensor data using Python, Tableau, and Alteryx to uncover predictive maintenance opportunities, reducing unexpected delays and cancellations.
-                                   </li>
-                                   <br>
-                                   <li>
-                                        Led training sessions for engineers on new tools to assess sensor data, improving team effectiveness and efficiency, while coaching external teams to enhance analytical capabilities and decision-making.
-                                   </li>
-                                   <li>
-                                        Maintained a Shiny application that provided engineers with a frontend for data requests, enabling them to identify component issues, service problems, and gather evidence for AD compliance. Expanded the application to support recursive searches for component information across aircraft, saving engineers time by reducing the need for multiple queries.
-                                   </li>
+                                   <li>Developed and implemented a predictive maintenance process us Palantir's Foundry, identifying actionable findings such as a predictive indicator for servicing rudder actuators before failure, preventing 15 flight cancellations and saving the company $30M. The process also allowed non-findings to be documented for future fleet modifications. Additionally, utilized brake heat dissipation data to estimate remaining thickness, saving 30 minutes per aircraft daily in routine maintenance.</li>
+                                   <li>Increased the Test coverage of ~10 micro-services,leveraging Junit and Mockito for Unit Testing,and Wiremock for Integration Testing. Achieving a comprehensive coverage rate surpassing 85%, thereby ensuring compliance with internal testing standards</li>
+                                   <li>Analyzed aircraft sensor data using Python, Tableau, and Alteryx to uncover predictive maintenance opportunities, reducing unexpected delays and cancellations.</li>
+                                   <li>Led training sessions for engineers on new tools to assess sensor data, improving team effectiveness and efficiency, while coaching external teams to enhance analytical capabilities and decision-making.</li>
+                                   <li>Maintained a Shiny application that provided engineers with a frontend for data requests, enabling them to identify component issues, service problems, and gather evidence for AD compliance. Expanded the application to support recursive searches for component information across aircraft, saving engineers time by reducing the need for multiple queries.</li>
                                    <br>
                                    
                                         <button class = "skill"><h6>Python</h6></button>
                                         <button class = "skill"><h6>Palantir Foundry</h6></button>
                                         <button class = "skill"><h6>R</h6></button>
-                                        <button class = "skill"><h6>CSS</h6></button>
-                                        <button class = "skill"><h6>HTML</h6></button>
+                                        <button class = "skill"><h6>Aviation</h6></button>
                                         <button class = "skill"><h6>Alteryx</h6></button>
                                         <button class = "skill"><h6>Tableau</h6></button>
                                         <button class = "skill"><h6>Powershell</h6></button>
